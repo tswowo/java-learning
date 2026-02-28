@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.javaweb.mapper.EmpExprMapper">
+
+    <!-- 批量添加员工工作经历 -->
+    <insert id="addEmpExpr">
+        <if test="exprList != null and exprList.size() > 0">
+            INSERT INTO emp_expr (emp_id, begin, `end`, company, job)
+            VALUES
+            <foreach collection="exprList" item="expr" separator=",">
+                (#{expr.empId}, #{expr.begin}, #{expr.end}, #{expr.company}, #{expr.job})
+            </foreach>
+        </if>
+    </insert>
+
+    <!-- 根据员工ID查询工作经历列表 -->
+    <select id="selectEmpExprById" resultType="org.javaweb.pojo.EmpExpr">
+        SELECT id,
+               emp_id AS empId,
+               begin,
+               `end`,
+               company,
+               job
+        FROM emp_expr
+        WHERE emp_id = #{empId}
+        ORDER BY begin
+    </select>
+
+    <!-- 根据员工ID删除全部工作经历 -->
+    <delete id="deleteByEmpId">
+        DELETE
+        FROM emp_expr
+        WHERE emp_id = #{empId}
+    </delete>
+
+</mapper>

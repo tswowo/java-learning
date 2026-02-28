@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace必须和Mapper接口全类名一致 -->
+<mapper namespace="org.javaweb.mapper.UserMapper2">
+    <!-- 定义通用结果映射（简化重复字段映射） -->
+    <resultMap id="UserResultMap" type="org.javaweb.pojo.User">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="name" property="name"/>
+        <result column="age" property="age"/>
+    </resultMap>
+
+    <!-- 1. 查询所有用户 -->
+    <select id="findAll" resultMap="UserResultMap">
+        <![CDATA[
+        SELECT * FROM user
+        ]]>
+    </select>
+
+    <!-- 2. 根据ID删除用户 -->
+    <delete id="deleteById" parameterType="java.lang.Integer">
+        <![CDATA[
+        DELETE FROM user WHERE id = #{id}
+        ]]>
+    </delete>
+
+    <!-- 3. 根据User对象的ID删除 -->
+    <delete id="deleteByUser" parameterType="org.javaweb.pojo.User">
+        <![CDATA[
+        DELETE FROM user WHERE id = #{id}
+        ]]>
+    </delete>
+
+    <!-- 4. 插入用户 -->
+    <insert id="insertUser" parameterType="org.javaweb.pojo.User">
+        <![CDATA[
+        INSERT INTO user(username, password, name, age)
+        VALUES (#{username}, #{password}, #{name}, #{age})
+        ]]>
+    </insert>
+
+    <!-- 5. 更新用户 -->
+    <update id="updateUser" parameterType="org.javaweb.pojo.User">
+        <![CDATA[
+        UPDATE user
+        SET username=#{username},
+            password=#{password},
+            name=#{name},
+            age=#{age}
+        WHERE id = #{id}
+        ]]>
+    </update>
+
+    <!-- 6. 根据ID查询用户（参数用@Param命名为theId，XML中需对应） -->
+    <select id="findById" parameterType="java.lang.Integer" resultMap="UserResultMap">
+        <![CDATA[
+        SELECT * FROM user WHERE id = #{theId}
+        ]]>
+    </select>
+
+    <!-- 7. 根据年龄区间查询用户（修复<=特殊字符问题） -->
+    <select id="findByDuringAge" resultMap="UserResultMap">
+        <![CDATA[
+        SELECT * FROM user WHERE age >= #{start} AND age <= #{end}
+        ]]>
+    </select>
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/springboot-aop-quickstart/src/main/java/com/itheima/mapper/DeptMapper.java" value="0ba8a3e5-6136-451e-b6c6-a2559c6466d6" />
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/java/org/javaweb/mapper/EmpLogMapper.java" value="0ba8a3e5-6136-451e-b6c6-a2559c6466d6" />
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/java/org/javaweb/mapper/OperateLogMapper.java" value="0ba8a3e5-6136-451e-b6c6-a2559c6466d6" />
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/resources/org/javaweb/mapper/ClazzMapper.xml" value="0ba8a3e5-6136-451e-b6c6-a2559c6466d6" />
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/resources/org/javaweb/mapper/EmpExprMapper.xml" value="0ba8a3e5-6136-451e-b6c6-a2559c6466d6" />
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/resources/org/javaweb/mapper/EmpLogMapper.xml" value="0ba8a3e5-6136-451e-b6c6-a2559c6466d6" />
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/resources/org/javaweb/mapper/EmpMapper.xml" value="0ba8a3e5-6136-451e-b6c6-a2559c6466d6" />
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/resources/org/javaweb/mapper/LogMapper.xml" value="0ba8a3e5-6136-451e-b6c6-a2559c6466d6" />
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/resources/org/javaweb/mapper/StudentMapper.xml" value="0ba8a3e5-6136-451e-b6c6-a2559c6466d6" />
+  </component>
+</project>

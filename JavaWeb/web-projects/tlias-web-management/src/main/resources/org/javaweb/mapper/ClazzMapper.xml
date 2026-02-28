@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.javaweb.mapper.ClazzMapper">
+    <!-- 新增班级-->
+    <insert id="insertClazz">
+        INSERT INTO clazz(name, room, begin_date, end_date,
+        subject, create_time, update_time
+        <if test="masterId!= null">,master_id</if>)
+        VALUES (#{name}, #{room}, #{beginDate}, #{endDate}, #{subject},
+        NOW(),NOW()<if test="masterId!= null">,#{masterId}</if>)
+    </insert>
+
+    <!-- 修改班级-->
+    <update id="updateClazz" parameterType="org.javaweb.pojo.Clazz">
+        UPDATE clazz
+        SET name = #{name},
+        room = #{room},
+        begin_date = #{beginDate},
+        end_date = #{endDate},
+        update_time = NOW(),
+        master_id = #{masterId}
+        <if test="subject!=null">
+            ,subject = #{subject}
+        </if>
+        WHERE id = #{id}
+    </update>
+
+    <!-- 删除班级-->
+    <delete id="deleteClazz">
+        DELETE
+        FROM clazz
+        WHERE id = #{id}
+    </delete>
+
+    <!-- 查询班级列表-->
+    <select id="selectClazzByCondition" parameterType="org.javaweb.pojo.ClazzQueryParam"
+            resultType="org.javaweb.pojo.Clazz">
+        SELECT c.id,
+        c.name,
+        c.room,
+        c.begin_date AS beginDate,
+        c.end_date AS endDate,
+        c.master_id AS masterId,
+        c.subject AS subject,
+        c.create_time AS createTime,
+        c.update_time AS updateTime,
+        IFNULL(e.name, '未分配') AS masterName,
+        CASE
+        <![CDATA[WHEN NOW() <= c.begin_date THEN '未开班']]>
+        WHEN NOW() > c.end_date THEN '已结课'
+        ELSE '已开班'
+        END AS status
+        FROM clazz AS c
+        LEFT JOIN emp AS e ON c.master_id = e.id
+        <where>
+            <if test="name != null and name != ''">
+                AND c.name LIKE CONCAT('%', #{name}, '%')
+            </if>
+            <if test="begin != null">
+                AND c.begin_date >= #{begin}
+            </if>
+            <if test="end != null">
+                <![CDATA[AND c.end_date <= #{end}]]>
+            </if>
+        </where>
+    </select>
+
+    <!-- 根据ID查询班级-->
+    <select id="selectClazzById" parameterType="integer" resultType="org.javaweb.pojo.Clazz">
+        SELECT id,
+               name,
+               room,
+               begin_date  AS beginDate,
+               end_date    AS endDate,
+               master_id   AS masterId,
+               subject     AS subject,
+               create_time AS createTime,
+               update_time AS updateTime
+        FROM clazz
+        WHERE id = #{id}
+    </select>
+</mapper>

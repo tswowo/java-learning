@@ -1,0 +1,225 @@
+2026-02-17 17:24:42 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 4428 (F:\JavaWeb_Works\web-projects\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects)
+2026-02-17 17:24:42 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-17 17:24:43 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-17 17:24:43 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-17 17:24:43 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-17 17:24:43 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-17 17:24:43 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-17 17:24:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1141 ms
+2026-02-17 17:24:43 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-17 17:24:44 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-17 17:24:44 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-17 17:24:44 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 2.509 seconds (process running for 3.751)
+2026-02-17 17:24:49 [http-nio-8080-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-17 17:24:49 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-17 17:24:49 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-17 17:24:49 [http-nio-8080-exec-5] INFO  org.javaweb.filter.TokenFilter - 【员工管理】系统未登录
+2026-02-17 17:24:51 [http-nio-8080-exec-1] INFO  org.javaweb.filter.TokenFilter - 【员工管理】token无效
+2026-02-17 17:24:51 [http-nio-8080-exec-7] INFO  org.javaweb.filter.TokenFilter - 【员工管理】token无效
+2026-02-17 17:24:59 [http-nio-8080-exec-9] INFO  org.javaweb.filter.TokenFilter - 【员工管理】登录请求
+2026-02-17 17:24:59 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-17 17:24:59 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28f6cae3
+2026-02-17 17:24:59 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-17 17:24:59 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工登录成功，用户名：shinaian
+2026-02-17 17:24:59 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】当前用户详细信息：Emp{id=null, username='shinaian', name='null', gender=未知, phone='null', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=null}
+2026-02-17 17:25:10 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-17 17:25:10 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】开始插入操作日志，参数：LogOperator(id=null, operateEmpId=1, operateTime=2026-02-17T17:25:10.514477800, className=org.javaweb.controller.DeptController, methodName=selectAllDept, methodParams=, returnValue=查询成功, costTime=13, operateEmpName=系统管理员)
+2026-02-17 17:25:10 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】操作日志插入成功，日志ID：null
+2026-02-17 17:25:10 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】操作日志记录成功，方法名：selectAllDept，参数：，返回值：查询成功，耗时：13ms
+2026-02-17 17:25:15 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-17 17:25:15 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】开始插入操作日志，参数：LogOperator(id=null, operateEmpId=1, operateTime=2026-02-17T17:25:15.171867600, className=org.javaweb.controller.DeptController, methodName=selectAllDept, methodParams=, returnValue=查询成功, costTime=9, operateEmpName=系统管理员)
+2026-02-17 17:25:15 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-17 17:25:15 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-17 17:25:15 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-17 17:25:15 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】操作日志插入成功，日志ID：null
+2026-02-17 17:25:15 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】操作日志记录成功，方法名：selectAllDept，参数：，返回值：查询成功，耗时：9ms
+2026-02-17 17:25:15 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-17 17:25:18 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-17 17:25:18 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】开始插入操作日志，参数：LogOperator(id=null, operateEmpId=1, operateTime=2026-02-17T17:25:18.232359800, className=org.javaweb.controller.DeptController, methodName=selectAllDept, methodParams=, returnValue=查询成功, costTime=7, operateEmpName=系统管理员)
+2026-02-17 17:25:18 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】操作日志插入成功，日志ID：null
+2026-02-17 17:25:18 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】操作日志记录成功，方法名：selectAllDept，参数：，返回值：查询成功，耗时：7ms
+2026-02-17 17:25:32 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-17 17:25:32 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-17 17:25:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-17 17:25:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-17 17:25:32 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁
+2026-02-17 17:25:33 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 11488 (F:\JavaWeb_Works\web-projects\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects)
+2026-02-17 17:25:33 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-17 17:25:34 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-17 17:25:34 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-17 17:25:34 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-17 17:25:34 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-17 17:25:34 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-17 17:25:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 798 ms
+2026-02-17 17:25:34 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-17 17:25:35 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-17 17:25:35 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-17 17:25:35 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.666 seconds (process running for 2.282)
+2026-02-17 17:25:39 [http-nio-8080-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-17 17:25:39 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-17 17:25:39 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-17 17:25:39 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-17 17:25:39 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-17 17:25:39 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d4e2844
+2026-02-17 17:25:39 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-17 17:25:39 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-17 17:25:39 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-17 17:25:39 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-17 17:25:40 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】开始插入操作日志，参数：LogOperator(id=null, operateEmpId=1, operateTime=2026-02-17T17:25:40.040084100, className=org.javaweb.controller.DeptController, methodName=selectAllDept, methodParams=, returnValue=查询成功, costTime=301, operateEmpName=系统管理员)
+2026-02-17 17:25:40 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】操作日志插入成功，日志ID：null
+2026-02-17 17:25:40 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-17 17:25:40 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】操作日志记录成功，方法名：selectAllDept，参数：，返回值：查询成功，耗时：301ms
+2026-02-17 17:25:48 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工详情查询请求，查询员工ID：30
+2026-02-17 17:25:48 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 详情查询完成，包含0条工作经历
+2026-02-17 17:25:54 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工更新请求，待更新员工信息：Emp{id=30, username='liyun', name='李云', gender=男, phone='13309090030', job=未知职位, salary=null, entryDate=2020-03-01, deptName='null', exprList=[]}
+2026-02-17 17:25:55 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 空字段回填完成
+2026-02-17 17:25:55 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工主表更新完成，ID:30
+2026-02-17 17:25:55 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】清空员工ID:30 历史工作经历完成
+2026-02-17 17:25:55 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 信息+工作经历全量更新完成
+2026-02-17 17:25:55 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工管理】开始插入操作日志，参数：LogOperator(id=null, operateEmpId=1, operateTime=2026-02-17T17:25:55.009924500, className=org.javaweb.controller.EmpController, methodName=updateEmp, methodParams=Emp{id=30, username='liyun', name='李云', gender=男, phone='13309090030', job=未知职位, salary=null, entryDate=2020-03-01, deptName='null', exprList=[]}, returnValue=员工信息更新成功, costTime=12, operateEmpName=系统管理员)
+2026-02-17 17:25:55 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工管理】操作日志插入成功，日志ID：null
+2026-02-17 17:25:55 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】操作日志记录成功，方法名：updateEmp，参数：Emp{id=30, username='liyun', name='李云', gender=男, phone='13309090030', job=未知职位, salary=null, entryDate=2020-03-01, deptName='null', exprList=[]}，返回值：员工信息更新成功，耗时：12ms
+2026-02-17 17:25:55 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-17 17:25:55 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-17 17:25:55 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-17 17:25:55 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-17 17:26:29 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工详情查询请求，查询员工ID：30
+2026-02-17 17:26:29 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 详情查询完成，包含0条工作经历
+2026-02-17 17:26:33 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工更新请求，待更新员工信息：Emp{id=30, username='liyun', name='李云', gender=男, phone='13309090030', job=未知职位, salary=null, entryDate=2020-03-01, deptName='null', exprList=[]}
+2026-02-17 17:26:33 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 空字段回填完成
+2026-02-17 17:26:33 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工主表更新完成，ID:30
+2026-02-17 17:26:33 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】清空员工ID:30 历史工作经历完成
+2026-02-17 17:26:33 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 信息+工作经历全量更新完成
+2026-02-17 17:26:33 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工管理】开始插入操作日志，参数：LogOperator(id=null, operateEmpId=1, operateTime=2026-02-17T17:26:33.102514300, className=org.javaweb.controller.EmpController, methodName=updateEmp, methodParams=Emp{id=30, username='liyun', name='李云', gender=男, phone='13309090030', job=未知职位, salary=null, entryDate=2020-03-01, deptName='null', exprList=[]}, returnValue=员工信息更新成功, costTime=6, operateEmpName=系统管理员)
+2026-02-17 17:26:33 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工管理】操作日志插入成功，日志ID：null
+2026-02-17 17:26:33 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】操作日志记录成功，方法名：updateEmp，参数：Emp{id=30, username='liyun', name='李云', gender=男, phone='13309090030', job=未知职位, salary=null, entryDate=2020-03-01, deptName='null', exprList=[]}，返回值：员工信息更新成功，耗时：6ms
+2026-02-17 17:26:34 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-17 17:26:34 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-17 17:26:34 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-17 17:26:34 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-17 17:28:02 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工详情查询请求，查询员工ID：30
+2026-02-17 17:28:02 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 详情查询完成，包含0条工作经历
+2026-02-17 17:28:06 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工更新请求，待更新员工信息：Emp{id=30, username='liyun', name='李云', gender=男, phone='13309090030', job=未知职位, salary=null, entryDate=2020-03-01, deptName='null', exprList=[]}
+2026-02-17 17:28:06 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 空字段回填完成
+2026-02-17 17:28:06 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工主表更新完成，ID:30
+2026-02-17 17:28:06 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】清空员工ID:30 历史工作经历完成
+2026-02-17 17:28:06 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 信息+工作经历全量更新完成
+2026-02-17 17:28:06 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工管理】开始插入操作日志，参数：LogOperator(id=null, operateEmpId=1, operateTime=2026-02-17T17:28:06.926908500, className=org.javaweb.controller.EmpController, methodName=updateEmp, methodParams=Emp{id=30, username='liyun', name='李云', gender=男, phone='13309090030', job=未知职位, salary=null, entryDate=2020-03-01, deptName='null', exprList=[]}, returnValue=员工信息更新成功, costTime=7, operateEmpName=系统管理员)
+2026-02-17 17:28:06 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工管理】操作日志插入成功，日志ID：null
+2026-02-17 17:28:06 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】操作日志记录成功，方法名：updateEmp，参数：Emp{id=30, username='liyun', name='李云', gender=男, phone='13309090030', job=未知职位, salary=null, entryDate=2020-03-01, deptName='null', exprList=[]}，返回值：员工信息更新成功，耗时：7ms
+2026-02-17 17:28:12 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-17 17:28:12 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-17 17:28:12 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-17 17:28:12 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-17 18:33:34 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-17 18:33:34 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-17 18:33:34 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-17 18:33:34 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-17 18:33:34 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁
+2026-02-17 18:33:38 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 7524 (F:\JavaWeb_Works\web-projects\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects)
+2026-02-17 18:33:38 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-17 18:33:39 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-17 18:33:39 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-17 18:33:39 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-17 18:33:39 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-17 18:33:39 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-17 18:33:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 915 ms
+2026-02-17 18:33:39 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-17 18:33:39 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-17 18:33:39 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-17 18:33:39 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.974 seconds (process running for 2.796)
+2026-02-17 18:37:35 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-17 18:37:35 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-17 18:37:35 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-17 18:37:35 [http-nio-8080-exec-1] INFO  org.javaweb.filter.TokenFilter - token无效
+2026-02-17 18:37:42 [http-nio-8080-exec-2] INFO  org.javaweb.filter.TokenFilter - 登录请求
+2026-02-17 18:37:42 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-17 18:37:43 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c3cc29a
+2026-02-17 18:37:43 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-17 18:37:43 [http-nio-8080-exec-2] ERROR org.javaweb.exception.GlobalExceptionHandler - 业务异常：用户名或密码错误
+2026-02-17 18:37:47 [http-nio-8080-exec-6] INFO  org.javaweb.filter.TokenFilter - 登录请求
+2026-02-17 18:37:47 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工登录成功，用户名：likui
+2026-02-17 18:37:47 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】当前用户详细信息：Emp{id=null, username='likui', name='null', gender=未知, phone='null', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=null}
+2026-02-17 18:37:51 [http-nio-8080-exec-3] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 18:37:51 [http-nio-8080-exec-4] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 18:37:52 [http-nio-8080-exec-7] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 18:37:52 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-17 18:37:52 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】开始插入操作日志，参数：LogOperator(id=null, operateEmpId=1, operateTime=2026-02-17T18:37:52.975990900, className=org.javaweb.controller.DeptController, methodName=selectAllDept, methodParams=, returnValue=查询成功, costTime=10, operateEmpName=系统管理员)
+2026-02-17 18:37:52 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】操作日志插入成功，日志ID：null
+2026-02-17 18:37:52 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】操作日志记录成功，方法名：selectAllDept，参数：，返回值：查询成功，耗时：10ms
+2026-02-17 18:37:58 [http-nio-8080-exec-5] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 18:37:58 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始删除部门，ID：6
+2026-02-17 18:37:58 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】删除部门"测试部门"成功
+2026-02-17 18:37:58 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】开始插入操作日志，参数：LogOperator(id=null, operateEmpId=1, operateTime=2026-02-17T18:37:58.821574200, className=org.javaweb.controller.DeptController, methodName=deleteById, methodParams=ID: 6, returnValue=删除部门"测试部门"成功, costTime=11, operateEmpName=系统管理员)
+2026-02-17 18:37:58 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】操作日志插入成功，日志ID：null
+2026-02-17 18:37:58 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】操作日志记录成功，方法名：deleteById，参数：ID: 6，返回值：删除部门"测试部门"成功，耗时：11ms
+2026-02-17 18:37:58 [http-nio-8080-exec-8] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 18:37:58 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-17 18:37:58 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】开始插入操作日志，参数：LogOperator(id=null, operateEmpId=1, operateTime=2026-02-17T18:37:58.874595700, className=org.javaweb.controller.DeptController, methodName=selectAllDept, methodParams=, returnValue=查询成功, costTime=5, operateEmpName=系统管理员)
+2026-02-17 18:37:58 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【部门管理】操作日志插入成功，日志ID：null
+2026-02-17 18:37:58 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】操作日志记录成功，方法名：selectAllDept，参数：，返回值：查询成功，耗时：5ms
+2026-02-17 18:39:42 [http-nio-8080-exec-9] INFO  org.javaweb.filter.TokenFilter - 系统未登录
+2026-02-17 18:39:44 [http-nio-8080-exec-10] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 18:46:52 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-17 18:46:52 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-17 18:46:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-17 18:46:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-17 18:46:52 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁
+2026-02-17 18:57:26 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 19632 (F:\JavaWeb_Works\web-projects\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects)
+2026-02-17 18:57:26 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-17 18:57:27 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-17 18:57:27 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-17 18:57:27 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-17 18:57:27 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-17 18:57:27 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-17 18:57:27 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 764 ms
+2026-02-17 18:57:27 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-17 18:57:28 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-17 18:57:28 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-17 18:57:28 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.647 seconds (process running for 2.224)
+2026-02-17 19:02:19 [http-nio-8080-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-17 19:02:19 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-17 19:02:19 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-17 19:02:19 [http-nio-8080-exec-4] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 19:02:19 [http-nio-8080-exec-1] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 19:02:19 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-17 19:02:19 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64545d1
+2026-02-17 19:02:19 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-17 19:02:19 [http-nio-8080-exec-3] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 19:02:33 [http-nio-8080-exec-2] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 19:02:33 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-17 19:02:34 [http-nio-8080-exec-5] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 19:02:34 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-17 19:02:34 [http-nio-8080-exec-6] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 19:02:34 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-17 19:02:34 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-17 19:02:34 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-17 19:02:34 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-17 19:02:36 [http-nio-8080-exec-7] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 19:02:36 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工详情查询请求，查询员工ID：30
+2026-02-17 19:02:36 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 详情查询完成，包含0条工作经历
+2026-02-17 19:02:37 [http-nio-8080-exec-9] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 19:02:37 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工更新请求，待更新员工信息：Emp{id=30, username='liyun', name='李云', gender=男, phone='13309090030', job=未知职位, salary=null, entryDate=2020-03-01, deptName='null', exprList=[]}
+2026-02-17 19:02:37 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 空字段回填完成
+2026-02-17 19:02:37 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工主表更新完成，ID:30
+2026-02-17 19:02:37 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】清空员工ID:30 历史工作经历完成
+2026-02-17 19:02:37 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 信息+工作经历全量更新完成
+2026-02-17 19:02:37 [http-nio-8080-exec-8] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 19:02:37 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-17 19:02:37 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-17 19:02:37 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-17 19:02:37 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-17 19:02:43 [http-nio-8080-exec-10] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：8
+2026-02-17 19:06:26 [http-nio-8080-exec-4] INFO  org.javaweb.filter.TokenFilter - 登录请求
+2026-02-17 19:06:26 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工登录成功，用户名：shinaian
+2026-02-17 19:06:26 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】当前用户详细信息：Emp{id=null, username='shinaian', name='null', gender=未知, phone='null', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=null}
+2026-02-17 19:06:39 [http-nio-8080-exec-3] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-17 19:06:39 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始根据ID查询部门，ID：2
+2026-02-17 19:06:59 [http-nio-8080-exec-2] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-17 19:06:59 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工详情查询请求，查询员工ID：13
+2026-02-17 19:06:59 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：13 详情查询完成，包含0条工作经历
+2026-02-17 19:18:42 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-17 19:18:42 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-17 19:18:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-17 19:18:42 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-17 19:18:42 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁

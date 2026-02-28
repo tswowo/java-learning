@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace必须和Mapper接口全类名一致 -->
+<mapper namespace="mybatis.mapper.StudentMapper">
+
+    <!-- 根据ID查询学生信息：指定参数类型、返回值类型，明确查询字段 -->
+    <select id="findStudentById" parameterType="java.lang.Integer" resultType="pojo.Student">
+        SELECT *
+        FROM student
+        WHERE id = #{id}
+    </select>
+
+    <!-- 根据ID删除学生信息：参数类型Integer，无返回值（默认void） -->
+    <delete id="deleteStudentById" parameterType="java.lang.Integer">
+        DELETE FROM student
+        WHERE id = #{id}
+    </delete>
+
+</mapper>

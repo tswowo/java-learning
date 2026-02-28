@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.javaweb.mapper.LogMapper">
+
+    <select id="selectAllLog" resultType="org.javaweb.pojo.LogOption">
+        SELECT l.id             AS id,
+               l.operate_emp_id AS operateEmpId,
+               e.name           AS operateEmpName,
+               l.operate_time   AS operateTime,
+               l.class_name     AS className,
+               l.method_name    AS methodName,
+               l.method_params  AS methodParams,
+               l.return_value   AS returnValue,
+               l.cost_time      AS costTime
+        FROM operate_log AS l
+                 INNER JOIN emp AS e ON l.operate_emp_id = e.id
+    </select>
+
+</mapper>

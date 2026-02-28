@@ -1,0 +1,10 @@
+林冲,2023-11-30 00:00:05,com.itheima.controller.DeptController,delete,18,[10],{"code":1}
+宋江,2023-11-30 00:01:05,com.itheima.controller.DeptController,update,18,[10],{"code":1}
+吴勇,2023-11-30 00:02:05,com.itheima.controller.DeptController,delete,18,[10],{"code":1}
+晁盖,2023-11-30 00:03:05,com.itheima.controller.DeptController,get,18,[10],{"code":1}
+李逵,2023-11-30 00:04:05,com.itheima.controller.DeptController,delete,18,[10],{"code":1}
+小二,2023-11-30 00:05:05,com.itheima.controller.DeptController,update,18,[10],{"code":1}
+金莲,2023-11-30 00:06:05,com.itheima.controller.DeptController,delete,18,[10],{"code":1}
+武松,2023-11-30 00:07:05,com.itheima.controller.DeptController,select,18,[10],{"code":1}
+大郎,2023-11-30 00:08:05,com.itheima.controller.DeptController,update,18,[10],{"code":1}
+林冲,2023-11-30 00:09:05,com.itheima.controller.DeptController,delete,18,[10],{"code":1}
