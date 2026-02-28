@@ -1,0 +1,224 @@
+2026-02-26 15:06:01 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 13780 (F:\JavaWeb_Works\web-projects-taliss\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects-taliss)
+2026-02-26 15:06:01 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-26 15:06:02 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-26 15:06:02 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:06:02 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-26 15:06:02 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-26 15:06:02 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-26 15:06:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 977 ms
+2026-02-26 15:06:02 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-26 15:06:03 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:06:03 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-26 15:06:03 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 2.084 seconds (process running for 3.084)
+2026-02-26 15:06:30 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-26 15:06:30 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-26 15:06:30 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-26 15:06:30 [http-nio-8080-exec-1] INFO  org.javaweb.filter.TokenFilter - 系统未登录
+2026-02-26 15:07:05 [http-nio-8080-exec-2] INFO  org.javaweb.filter.TokenFilter - 登录请求
+2026-02-26 15:07:05 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-26 15:07:06 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ade214a
+2026-02-26 15:07:06 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-26 15:07:06 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工登录成功，用户名：shinaian
+2026-02-26 15:07:06 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】当前用户详细信息：Emp{id=null, username='shinaian', name='null', gender=未知, phone='null', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=null}
+2026-02-26 15:07:08 [http-nio-8080-exec-10] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:07:08 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-26 15:07:38 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-26 15:07:38 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-26 15:07:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-26 15:07:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-26 15:07:38 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁
+2026-02-26 15:12:29 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 10972 (F:\JavaWeb_Works\web-projects-taliss\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects-taliss)
+2026-02-26 15:12:29 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-26 15:12:30 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-26 15:12:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:12:30 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-26 15:12:30 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-26 15:12:30 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-26 15:12:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 780 ms
+2026-02-26 15:12:30 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-26 15:12:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:12:31 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-26 15:12:31 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.671 seconds (process running for 2.259)
+2026-02-26 15:12:37 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-26 15:12:37 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-26 15:12:37 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-26 15:12:37 [http-nio-8080-exec-1] INFO  org.javaweb.filter.TokenFilter - 系统未登录
+2026-02-26 15:12:43 [http-nio-8080-exec-2] INFO  org.javaweb.filter.TokenFilter - 登录请求
+2026-02-26 15:12:43 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-26 15:12:44 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70bcac07
+2026-02-26 15:12:44 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-26 15:12:44 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工登录成功，用户名：shinaian
+2026-02-26 15:12:44 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】当前用户详细信息：Emp{id=null, username='shinaian', name='null', gender=未知, phone='null', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=null}
+2026-02-26 15:15:44 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-26 15:15:44 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-26 15:15:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-26 15:15:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-26 15:15:44 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁
+2026-02-26 15:16:11 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 2420 (F:\JavaWeb_Works\web-projects-taliss\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects-taliss)
+2026-02-26 15:16:11 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-26 15:16:12 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-26 15:16:12 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:16:12 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-26 15:16:12 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-26 15:16:12 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-26 15:16:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 812 ms
+2026-02-26 15:16:12 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-26 15:16:13 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:16:13 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-26 15:16:13 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.71 seconds (process running for 2.283)
+2026-02-26 15:16:25 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-26 15:16:25 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-26 15:16:25 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁
+2026-02-26 15:16:30 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 18212 (F:\JavaWeb_Works\web-projects-taliss\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects-taliss)
+2026-02-26 15:16:30 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-26 15:16:30 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-26 15:16:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:16:30 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-26 15:16:30 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-26 15:16:30 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-26 15:16:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 762 ms
+2026-02-26 15:16:30 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-26 15:16:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:16:31 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-26 15:16:31 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.631 seconds (process running for 2.205)
+2026-02-26 15:16:32 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-26 15:16:32 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-26 15:16:32 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁
+2026-02-26 15:16:36 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 9296 (F:\JavaWeb_Works\web-projects-taliss\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects-taliss)
+2026-02-26 15:16:36 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-26 15:16:37 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-26 15:16:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:16:37 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-26 15:16:37 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-26 15:16:37 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-26 15:16:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 776 ms
+2026-02-26 15:16:37 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-26 15:16:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:16:37 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-26 15:16:37 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.651 seconds (process running for 2.183)
+2026-02-26 15:16:40 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-26 15:16:40 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-26 15:16:40 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁
+2026-02-26 15:42:56 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 488 (F:\JavaWeb_Works\web-projects-taliss\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects-taliss)
+2026-02-26 15:42:56 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-26 15:42:58 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-26 15:42:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:42:58 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-26 15:42:58 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-26 15:42:58 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-26 15:42:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1214 ms
+2026-02-26 15:42:58 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-26 15:42:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:42:59 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-26 15:42:59 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 2.573 seconds (process running for 3.441)
+2026-02-26 15:42:59 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-26 15:42:59 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-26 15:42:59 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-02-26 15:42:59 [http-nio-8080-exec-1] INFO  org.javaweb.filter.TokenFilter - 系统未登录
+2026-02-26 15:43:07 [http-nio-8080-exec-2] INFO  org.javaweb.filter.TokenFilter - 登录请求
+2026-02-26 15:43:07 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-26 15:43:07 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@637086df
+2026-02-26 15:43:07 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-26 15:43:07 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工登录成功，用户名：shinaian
+2026-02-26 15:43:07 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】当前用户详细信息：Emp{id=null, username='shinaian', name='null', gender=未知, phone='null', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=null}
+2026-02-26 15:43:16 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-26 15:43:16 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-26 15:43:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-26 15:43:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-26 15:43:16 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁
+2026-02-26 15:49:49 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 9304 (F:\JavaWeb_Works\web-projects-taliss\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects-taliss)
+2026-02-26 15:49:49 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-26 15:49:50 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-26 15:49:50 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:49:50 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-26 15:49:50 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-26 15:49:50 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-26 15:49:50 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 925 ms
+2026-02-26 15:49:50 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-26 15:49:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:49:51 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-26 15:49:51 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.995 seconds (process running for 2.63)
+2026-02-26 15:49:54 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-26 15:49:54 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-26 15:49:54 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-02-26 15:49:54 [http-nio-8080-exec-1] INFO  org.javaweb.filter.TokenFilter - 系统未登录
+2026-02-26 15:50:00 [http-nio-8080-exec-2] INFO  org.javaweb.filter.TokenFilter - 登录请求
+2026-02-26 15:50:00 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-26 15:50:01 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8572bf6
+2026-02-26 15:50:01 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-26 15:50:01 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工登录成功，用户名：shinaian
+2026-02-26 15:50:01 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】当前用户详细信息：Emp{id=null, username='shinaian', name='null', gender=未知, phone='null', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=null}
+2026-02-26 15:50:05 [http-nio-8080-exec-4] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:50:05 [http-nio-8080-exec-3] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:50:05 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.ClazzServiceImpl - 【班级管理】接收到班级列表查询请求，查询参数：null
+2026-02-26 15:50:05 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.ClazzServiceImpl - 【班级管理】查询参数为空，初始化默认查询参数对象
+2026-02-26 15:50:05 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.ClazzServiceImpl - 【班级管理】参数预处理完成，处理后参数：ClazzQueryParam(name=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-26 15:50:05 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.ClazzServiceImpl - 【班级管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-26 15:50:05 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.StudentServiceImpl - 【学生管理】接收到学生列表查询请求，查询参数：StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2026-02-26 15:50:05 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.StudentServiceImpl - 【学生管理】参数预处理完成，处理后参数：StudentQueryParam(name=null, degree=null, clazzId=null, page=1, pageSize=10)
+2026-02-26 15:50:05 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.StudentServiceImpl - 【学生管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-26 15:50:05 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.StudentServiceImpl - 【学生管理】学生条件查询执行完成，查询到10条数据
+2026-02-26 15:50:05 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.ClazzServiceImpl - 【班级管理】班级条件查询执行完成，查询到6条数据
+2026-02-26 15:50:05 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.StudentServiceImpl - 【学生管理】分页结果封装完成，总记录数：15，当前页数据条数：10
+2026-02-26 15:50:05 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.ClazzServiceImpl - 【班级管理】分页结果封装完成，总记录数：6，当前页数据条数：6
+2026-02-26 15:50:09 [http-nio-8080-exec-6] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:50:09 [http-nio-8080-exec-9] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:50:09 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-26 15:50:09 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-26 15:50:09 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-26 15:50:09 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-26 15:50:09 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-26 15:50:14 [http-nio-8080-exec-7] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:50:14 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工详情查询请求，查询员工ID：30
+2026-02-26 15:50:14 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 详情查询完成，包含0条工作经历
+2026-02-26 15:50:19 [http-nio-8080-exec-8] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:50:19 [http-nio-8080-exec-8] INFO  org.javaweb.controller.UploadController - 文件9814c1fa9b33b83740a0be5701bedcde.jpg上传开始...
+2026-02-26 15:50:21 [http-nio-8080-exec-8] INFO  org.javaweb.controller.UploadController - 文件9814c1fa9b33b83740a0be5701bedcde.jpg上传OSS成功，访问地址为：https://tlias-file-study-demo.oss-cn-beijing.aliyuncs.com/2026/02/08b1d1c1-d701-4ef7-ad6d-1c5116f15c05.jpg
+2026-02-26 15:50:22 [http-nio-8080-exec-5] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:50:22 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工更新请求，待更新员工信息：Emp{id=30, username='liyun', name='李云', gender=男, phone='13309090030', job=未知职位, salary=null, entryDate=2020-03-01, deptName='null', exprList=[]}
+2026-02-26 15:50:23 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 空字段回填完成
+2026-02-26 15:50:23 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工主表更新完成，ID:30
+2026-02-26 15:50:23 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】清空员工ID:30 历史工作经历完成
+2026-02-26 15:50:23 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：30 信息+工作经历全量更新完成
+2026-02-26 15:50:23 [http-nio-8080-exec-10] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:50:23 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-26 15:50:23 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-26 15:50:23 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-26 15:50:23 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-26 15:50:33 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-26 15:50:33 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-26 15:50:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-26 15:50:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-26 15:50:33 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁
+2026-02-26 15:52:26 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 14860 (F:\JavaWeb_Works\web-projects-taliss\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects-taliss)
+2026-02-26 15:52:26 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-26 15:52:27 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-26 15:52:27 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:52:27 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-26 15:52:27 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-26 15:52:27 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-26 15:52:27 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 918 ms
+2026-02-26 15:52:27 [main] INFO  org.javaweb.filter.TokenFilter - DemoFilter init 初始化
+2026-02-26 15:52:28 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-26 15:52:28 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-26 15:52:28 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.971 seconds (process running for 2.666)
+2026-02-26 15:52:29 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-26 15:52:29 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-26 15:52:29 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-26 15:52:29 [http-nio-8080-exec-1] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:52:29 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-26 15:52:29 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-26 15:52:29 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c8317a9
+2026-02-26 15:52:29 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-26 15:52:31 [http-nio-8080-exec-7] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:52:31 [http-nio-8080-exec-2] INFO  org.javaweb.filter.TokenFilter - 当前登录员工ID：1
+2026-02-26 15:52:31 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-26 15:52:31 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-26 15:52:31 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-26 15:52:31 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-26 15:52:31 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-26 15:52:39 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-26 15:52:39 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-26 15:52:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-26 15:52:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-26 15:52:39 [SpringApplicationShutdownHook] INFO  org.javaweb.filter.TokenFilter - DemoFilter destroy 销毁
