@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户列表数据</title>
+    <style>
+        /*定义css，美化表格*/
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+            font-size: 14px;
+        }
+        tr {
+            height: 40px;
+        }
+        th,td{
+            border: 1px solid #ccc;
+        }
+        thead{
+            background-color: #e8e8e8;
+        }
+        h1{
+            text-align: center;
+            font-family: 楷体;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1>日志列表数据</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>操作人</th>
+                    <th>操作时间</th>
+                    <th>操作类</th>
+                    <th>操作方法</th>
+                    <th>方法参数</th>
+                    <th>操作耗时(ms)</th>
+                    <th>返回值</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(log,index) in logList">
+                    <td>{{index + 1}}</td>
+                    <td>{{log.operateEmpName}}</td>
+                    <td>{{log.operateTime}}</td>
+                    <td>{{log.className}}</td>
+                    <td>{{log.methodName}}</td>
+                    <td>{{log.methodParams}}</td>
+                    <td>{{log.costTime}}</td>
+                    <td>{{log.returnValue}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--引入axios-->
+    <script src="js/axios.min.js"></script>
+    <script type="module">
+        import { createApp } from './js/vue.esm-browser.js'
+        createApp({
+            data() {
+                return {
+                    logList: []
+                }
+            },
+            methods: {
+                async search(){
+                    const result = await axios.get('/logs');
+                    this.logList = result.data.data;
+                }
+            },
+            mounted() {
+                this.search();
+            }
+        }).mount('#app')
+    </script>
+</body>
+</html>

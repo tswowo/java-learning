@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.javaweb.mapper.EmpMapper">
+
+    <!-- 多条件分页查询员工信息，仅关联部门表 -->
+    <select id="selectEmpByCondition" parameterType="org.javaweb.pojo.EmpQueryParam" resultType="org.javaweb.pojo.Emp">
+        SELECT
+        e.id,
+        e.username,
+        e.password,
+        e.name,
+        e.gender,
+        e.phone,
+        e.job,
+        e.salary,
+        e.image,
+        e.entry_date,
+        e.dept_id,
+        e.create_time,
+        e.update_time,
+        d.name AS dept_name
+        FROM emp e
+        LEFT JOIN dept d ON e.dept_id = d.id
+        WHERE 1=1
+        <if test="name != null and name != ''">
+            AND e.name LIKE CONCAT('%', #{name}, '%')
+        </if>
+        <if test="gender != null">
+            AND e.gender = #{gender}
+        </if>
+        <if test="begin != null">
+            <![CDATA[ AND e.entry_date >= #{begin} ]]>
+        </if>
+        <if test="end != null">
+            <![CDATA[ AND e.entry_date <= #{end} ]]>
+        </if>
+        ORDER BY e.entry_date DESC
+    </select>
+
+    <!-- 简化结果映射：仅处理基础字段+部门名称，无工作经历关联 -->
+    <resultMap id="EmpDetailResultMap" type="org.javaweb.pojo.Emp" autoMapping="true">
+        <id column="id" property="id"/>
+        <result column="dept_name" property="deptName"/>
+    </resultMap>
+
+    <!-- 新增员工：主键回填，无变化 -->
+    <insert id="addEmp" parameterType="org.javaweb.pojo.Emp" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        INSERT INTO emp (username,
+        password,
+        name,
+        gender,
+        phone,
+        salary,
+        image,
+        entry_date,
+        dept_id,
+        create_time,
+        update_time
+        <if test="job!=null">
+            ,job
+        </if>)
+        VALUES (#{username},
+        #{password},
+        #{name},
+        #{gender},
+        #{phone},
+        #{salary},
+        #{image},
+        #{entryDate},
+        #{deptId},
+        NOW(),
+        NOW()
+        <if test="job!=null">
+            #{job},
+        </if>)
+    </insert>
+
+    <!-- 根据ID查询员工基础信息：仅查询emp+dept -->
+    <select id="selectById" resultMap="EmpDetailResultMap">
+        SELECT e.*, d.name dept_name
+        FROM emp e
+                 LEFT JOIN dept d ON e.dept_id = d.id
+        WHERE e.id = #{id}
+    </select>
+
+    <!-- 根据用户名查询员工信息 -->
+    <select id="selectByUsername" parameterType="string" resultType="org.javaweb.pojo.Emp">
+        SELECT *
+        FROM emp
+        WHERE username = #{username}
+    </select>
+
+    <!-- 根据ID删除员工 -->
+    <delete id="deleteById">
+        DELETE
+        FROM emp
+        WHERE id = #{id}
+    </delete>
+
+    <!-- 修改员工信息 -->
+    <update id="updateEmp" parameterType="org.javaweb.pojo.Emp">
+        UPDATE emp
+        SET username    = #{username},
+            password    = #{password},
+            name        = #{name},
+            gender      = #{gender},
+            image       = #{image},
+            job         = #{job},
+            salary      = #{salary},
+            entry_date  = #{entryDate},
+            dept_id     = #{deptId},
+            update_time = NOW()
+        WHERE id = #{id}
+    </update>
+
+    <!-- 统计各个职位的员工人数 -->
+    <select id="countEmpJobData" resultType="java.util.Map">
+        SELECT (CASE job
+                    WHEN 1 THEN '班主任'
+                    WHEN 2 THEN '讲师'
+                    WHEN 3 THEN '学工主管'
+                    WHEN 4 THEN '教研主管'
+                    WHEN 5 THEN '咨询师'
+                    ELSE '其他' END) AS pos,
+               COUNT(*)              AS total
+        FROM emp
+        GROUP BY job
+        ORDER BY total
+    </select>
+
+    <!-- 统计各个性别的员工人数 -->
+    <select id="countEmpGenderData" resultType="java.util.Map">
+        SELECT (CASE gender
+                    WHEN 1 THEN '男性员工'
+                    WHEN 2 THEN '女性员工'
+                    ELSE '其他' END) AS name,
+               COUNT(*)              AS value
+        FROM emp
+        GROUP BY gender
+    </select>
+
+    <!-- 统计各个学历的学员人数 -->
+    <select id="countStudentDegreeData" resultType="java.util.Map">
+        SELECT (CASE degree
+                    WHEN 1 THEN '本科'
+                    WHEN 2 THEN '大专'
+                    WHEN 3 THEN '高中'
+                    WHEN 4 THEN '初中'
+                    WHEN 5 THEN '小学'
+                    ELSE '其他' END) AS name,
+               COUNT(*)              AS value
+        FROM student
+        GROUP BY degree
+    </select>
+
+    <!-- 统计各个班级的学员人数 -->
+    <select id="countStudentCountData" resultType="java.util.Map">
+        SELECT c.name AS clazz, COUNT(*) AS total
+        FROM student AS s
+                 INNER JOIN clazz AS c ON s.clazz_id = c.id
+        GROUP BY clazz_id
+    </select>
+
+    <!-- 根据用户名和密码查询员工信息 -->
+    <select id="selectByUsernameAndPassword" resultType="org.javaweb.pojo.Emp">
+        SELECT *
+        FROM emp
+        WHERE username = #{username}
+          AND password = #{password}
+    </select>
+
+</mapper>

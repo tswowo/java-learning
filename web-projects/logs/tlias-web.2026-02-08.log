@@ -1,0 +1,832 @@
+2026-02-08 21:48:44 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 18360 (F:\JavaWeb_Works\web-projects\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects)
+2026-02-08 21:48:44 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-08 21:48:46 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-08 21:48:46 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-08 21:48:46 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-08 21:48:46 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-08 21:48:46 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-08 21:48:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1479 ms
+2026-02-08 21:48:47 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-08 21:48:47 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-08 21:48:47 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 3.277 seconds (process running for 4.356)
+2026-02-08 21:49:22 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-08 21:49:22 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-08 21:49:22 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-08 21:49:22 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-08 21:49:23 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31a44f9f
+2026-02-08 21:49:23 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-08 22:27:53 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-08 22:27:53 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-08 22:27:53 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-08 22:27:53 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-08 22:27:56 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 20464 (F:\JavaWeb_Works\web-projects\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects)
+2026-02-08 22:27:56 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-08 22:27:57 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-08 22:27:57 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-08 22:27:57 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-08 22:27:57 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-08 22:27:57 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-08 22:27:57 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 990 ms
+2026-02-08 22:27:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-08 22:27:58 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-08 22:27:58 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 2.587 seconds (process running for 3.194)
+2026-02-08 22:28:04 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-08 22:28:04 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-08 22:28:04 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-08 22:28:05 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-08 22:28:05 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13df0fa1
+2026-02-08 22:28:05 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-08 22:28:05 [http-nio-8080-exec-1] ERROR org.javaweb.pojo.GlobalExpectionHandler - 全局异常处理: 删除班级失败：未找到对应ID的班级
+2026-02-08 22:37:32 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-08 22:37:32 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-08 22:37:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-08 22:37:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-08 22:41:27 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 21948 (F:\JavaWeb_Works\web-projects\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects)
+2026-02-08 22:41:27 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-08 22:41:28 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-08 22:41:28 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-08 22:41:28 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-08 22:41:28 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-08 22:41:28 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-08 22:41:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1053 ms
+2026-02-08 22:41:29 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-08 22:41:29 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-08 22:41:29 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 2.598 seconds (process running for 3.294)
+2026-02-08 22:41:45 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-08 22:41:45 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-08 22:41:45 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-08 22:41:45 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:41:45 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-08 22:41:45 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e268c7
+2026-02-08 22:41:45 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-08 22:41:45 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到全量员工列表查询请求
+2026-02-08 22:41:46 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到3条数据
+2026-02-08 22:41:46 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】全量员工查询完成，共33条数据
+2026-02-08 22:41:47 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：null
+2026-02-08 22:41:47 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.ClazzServiceImpl - 查询参数为空，初始化默认查询参数对象
+2026-02-08 22:41:47 [http-nio-8080-exec-4] ERROR org.javaweb.exception.GlobalExceptionHandler - 系统异常
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource students.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-02-08 22:41:47 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到3条数据
+2026-02-08 22:42:40 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:42:40 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到全量员工列表查询请求
+2026-02-08 22:42:40 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】全量员工查询完成，共33条数据
+2026-02-08 22:42:40 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到5条数据
+2026-02-08 22:42:47 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=5)
+2026-02-08 22:42:47 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到5条数据
+2026-02-08 22:42:48 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:42:48 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到5条数据
+2026-02-08 22:42:49 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：null
+2026-02-08 22:42:49 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.ClazzServiceImpl - 查询参数为空，初始化默认查询参数对象
+2026-02-08 22:42:49 [http-nio-8080-exec-10] ERROR org.javaweb.exception.GlobalExceptionHandler - 系统异常
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource students.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-02-08 22:42:49 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到5条数据
+2026-02-08 22:42:50 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:42:50 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到全量员工列表查询请求
+2026-02-08 22:42:50 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】全量员工查询完成，共33条数据
+2026-02-08 22:42:50 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到5条数据
+2026-02-08 22:43:07 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:43:08 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到5条数据
+2026-02-08 22:43:10 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:43:10 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到5条数据
+2026-02-08 22:43:10 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:43:10 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到5条数据
+2026-02-08 22:43:16 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=167, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:43:17 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到0条数据
+2026-02-08 22:43:20 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:43:20 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到5条数据
+2026-02-08 22:43:23 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：null
+2026-02-08 22:43:23 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.ClazzServiceImpl - 查询参数为空，初始化默认查询参数对象
+2026-02-08 22:43:23 [http-nio-8080-exec-8] ERROR org.javaweb.exception.GlobalExceptionHandler - 系统异常
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource students.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-02-08 22:43:23 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到5条数据
+2026-02-08 22:43:24 [http-nio-8080-exec-9] ERROR org.javaweb.exception.GlobalExceptionHandler - 系统异常
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource students.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-02-08 22:43:36 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-08 22:43:39 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-08 22:43:39 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:43:39 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-08 22:43:39 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-08 22:43:39 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-08 22:43:43 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工删除请求，待删除员工ID：[35]
+2026-02-08 22:43:43 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：35 删除完成（含工作经历）
+2026-02-08 22:43:43 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】批量删除员工完成，总计删除1条记录
+2026-02-08 22:43:43 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:43:43 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-08 22:43:43 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-08 22:43:43 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-08 22:43:47 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:43:47 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到全量员工列表查询请求
+2026-02-08 22:43:47 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】全量员工查询完成，共32条数据
+2026-02-08 22:43:47 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到5条数据
+2026-02-08 22:58:50 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-08 22:58:50 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-08 22:58:50 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-08 22:58:50 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-08 22:58:52 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 18616 (F:\JavaWeb_Works\web-projects\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects)
+2026-02-08 22:58:52 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-08 22:58:53 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-08 22:58:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-08 22:58:53 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-08 22:58:53 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-08 22:58:53 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-08 22:58:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1153 ms
+2026-02-08 22:58:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-08 22:58:54 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-08 22:58:54 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 2.935 seconds (process running for 3.671)
+2026-02-08 22:59:03 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-08 22:59:03 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-08 22:59:04 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 23420 (F:\JavaWeb_Works\web-projects\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects)
+2026-02-08 22:59:04 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-08 22:59:05 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-08 22:59:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-08 22:59:05 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-08 22:59:05 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-08 22:59:05 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-08 22:59:05 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1022 ms
+2026-02-08 22:59:06 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-08 22:59:06 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-08 22:59:06 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 2.531 seconds (process running for 3.141)
+2026-02-08 22:59:53 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-08 22:59:53 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-08 22:59:53 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-02-08 22:59:53 [http-nio-8080-exec-1] ERROR org.javaweb.exception.GlobalExceptionHandler - 系统异常
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource students.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-02-08 22:59:53 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：null
+2026-02-08 22:59:53 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.ClazzServiceImpl - 查询参数为空，初始化默认查询参数对象
+2026-02-08 22:59:53 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-08 22:59:53 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级列表查询请求，查询参数：ClazzQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 22:59:54 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d2ad841
+2026-02-08 22:59:54 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-08 22:59:54 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到全量员工列表查询请求
+2026-02-08 22:59:54 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到6条数据
+2026-02-08 22:59:54 [http-nio-8080-exec-2] INFO  org.javaweb.service.impl.ClazzServiceImpl - 班级条件查询执行完成，查询到6条数据
+2026-02-08 22:59:54 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】全量员工查询完成，共32条数据
+2026-02-08 23:02:48 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级id查询请求，查询参数：114
+2026-02-08 23:02:48 [http-nio-8080-exec-6] ERROR org.javaweb.exception.GlobalExceptionHandler - 业务异常：查询班级失败：未找到对应ID的班级
+2026-02-08 23:02:52 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级id查询请求，查询参数：2
+2026-02-08 23:02:58 [http-nio-8080-exec-9] ERROR org.javaweb.exception.GlobalExceptionHandler - 业务异常：删除班级失败：未找到对应ID的班级
+2026-02-08 23:03:06 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.ClazzServiceImpl - 接收到班级id查询请求，查询参数：2
+2026-02-08 23:13:26 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-08 23:13:26 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 23:13:26 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-08 23:13:26 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-08 23:13:26 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-08 23:14:06 [http-nio-8080-exec-2] INFO  org.javaweb.controller.UploadController - 文件9814c1fa9b33b83740a0be5701bedcde.jpg上传开始...
+2026-02-08 23:14:09 [http-nio-8080-exec-2] INFO  org.javaweb.controller.UploadController - 文件9814c1fa9b33b83740a0be5701bedcde.jpg上传OSS成功，访问地址为：https://tlias-file-study-demo.oss-cn-beijing.aliyuncs.com/2026/02/79a8eaa9-4490-409d-9815-27a4e6de73be.jpg
+2026-02-08 23:47:16 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工新增请求，员工信息：Emp{id=null, username='shopping', name='小平', gender=男, phone='13219896040', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]}
+2026-02-08 23:47:16 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工主表新增完成，生成员工ID：42
+2026-02-08 23:47:16 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【小平】新增全流程完成
+2026-02-08 23:47:16 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【小平】新增结束，开始记录操作日志
+2026-02-08 23:47:16 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工日志】开始插入员工操作日志，参数：EmpLog(id=null, operateTime=2026-02-08T23:47:16.107306200, info=Emp{id=42, username='shopping', name='小平', gender=男, phone='13219896040', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]})
+2026-02-08 23:47:16 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工日志】员工操作日志插入成功，日志ID：null
+2026-02-08 23:47:16 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【小平】操作日志记录成功
+2026-02-08 23:47:16 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 23:47:16 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-08 23:47:16 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-08 23:47:16 [http-nio-8080-exec-5] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-08 23:47:26 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=小平, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 23:47:26 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：小平
+2026-02-08 23:47:26 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-08 23:47:26 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到1条数据
+2026-02-08 23:48:10 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工新增请求，员工信息：Emp{id=null, username='shoppin', name='小平', gender=男, phone='12311234123', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]}
+2026-02-08 23:48:10 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工主表新增完成，生成员工ID：43
+2026-02-08 23:48:10 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【小平】新增全流程完成
+2026-02-08 23:48:10 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【小平】新增结束，开始记录操作日志
+2026-02-08 23:48:10 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工日志】开始插入员工操作日志，参数：EmpLog(id=null, operateTime=2026-02-08T23:48:10.106202500, info=Emp{id=43, username='shoppin', name='小平', gender=男, phone='12311234123', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]})
+2026-02-08 23:48:10 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工日志】员工操作日志插入成功，日志ID：null
+2026-02-08 23:48:10 [http-nio-8080-exec-7] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【小平】操作日志记录成功
+2026-02-08 23:48:10 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=小平, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 23:48:10 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：小平
+2026-02-08 23:48:10 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-08 23:48:10 [http-nio-8080-exec-9] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到2条数据
+2026-02-08 23:49:54 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=小平, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 23:49:54 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：小平
+2026-02-08 23:49:54 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-08 23:49:54 [http-nio-8080-exec-8] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到2条数据
+2026-02-08 23:50:00 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工删除请求，待删除员工ID：[43]
+2026-02-08 23:50:00 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工ID：43 删除完成（含工作经历）
+2026-02-08 23:50:00 [http-nio-8080-exec-10] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】批量删除员工完成，总计删除1条记录
+2026-02-08 23:50:00 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=小平, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 23:50:00 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：小平
+2026-02-08 23:50:00 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-08 23:50:00 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到1条数据
+2026-02-08 23:50:22 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工新增请求，员工信息：Emp{id=null, username='shopping', name='213123', gender=男, phone='12312341234', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]}
+2026-02-08 23:50:22 [http-nio-8080-exec-1] ERROR org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工新增异常，员工信息：Emp{id=null, username='shopping', name='213123', gender=男, phone='12312341234', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]}
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'shopping' for key 'emp.username'
+### The error may exist in org/javaweb/mapper/EmpMapper.xml
+### The error may involve org.javaweb.mapper.EmpMapper.addEmp-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO emp (username,         password,         name,         gender,         phone,         salary,         image,         entry_date,         dept_id,         create_time,         update_time          )         VALUES (?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         NOW(),         NOW()          )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'shopping' for key 'emp.username'
+; Duplicate entry 'shopping' for key 'emp.username'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:95)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy72.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy75.addEmp(Unknown Source)
+	at org.javaweb.service.impl.EmpServiceImpl.addEmp(EmpServiceImpl.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at org.javaweb.service.impl.EmpServiceImpl$$SpringCGLIB$$0.addEmp(<generated>)
+	at org.javaweb.controller.EmpController.addEmp(EmpController.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'shopping' for key 'emp.username'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at jdk.internal.reflect.GeneratedMethodAccessor42.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy90.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 70 common frames omitted
+2026-02-08 23:50:22 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【213123】新增结束，开始记录操作日志
+2026-02-08 23:50:22 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工日志】开始插入员工操作日志，参数：EmpLog(id=null, operateTime=2026-02-08T23:50:22.954760100, info=Emp{id=null, username='shopping', name='213123', gender=男, phone='12312341234', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]})
+2026-02-08 23:50:22 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工日志】员工操作日志插入成功，日志ID：null
+2026-02-08 23:50:22 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【213123】操作日志记录成功
+2026-02-08 23:50:22 [http-nio-8080-exec-1] ERROR org.javaweb.exception.GlobalExceptionHandler - 业务异常：保存员工信息失败，请稍后重试
+2026-02-08 23:55:11 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-08 23:55:11 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-08 23:55:11 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-08 23:55:11 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-08 23:55:16 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 17044 (F:\JavaWeb_Works\web-projects\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects)
+2026-02-08 23:55:16 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-08 23:55:17 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-08 23:55:17 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-08 23:55:17 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-08 23:55:17 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-08 23:55:17 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-08 23:55:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1157 ms
+2026-02-08 23:55:18 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-08 23:55:18 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-08 23:55:18 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 3.138 seconds (process running for 3.915)
+2026-02-08 23:55:23 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-08 23:55:23 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-08 23:55:23 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-02-08 23:55:23 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-08 23:55:23 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a9c4763
+2026-02-08 23:55:23 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-08 23:55:23 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工新增请求，员工信息：Emp{id=null, username='shopping', name='123', gender=男, phone='12341234123', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]}
+2026-02-08 23:55:24 [http-nio-8080-exec-1] ERROR org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工新增异常，员工信息：Emp{id=null, username='shopping', name='123', gender=男, phone='12341234123', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]}
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'shopping' for key 'emp.username'
+### The error may exist in org/javaweb/mapper/EmpMapper.xml
+### The error may involve org.javaweb.mapper.EmpMapper.addEmp-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO emp (username,         password,         name,         gender,         phone,         salary,         image,         entry_date,         dept_id,         create_time,         update_time          )         VALUES (?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         NOW(),         NOW()          )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'shopping' for key 'emp.username'
+; Duplicate entry 'shopping' for key 'emp.username'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:95)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy72.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy75.addEmp(Unknown Source)
+	at org.javaweb.service.impl.EmpServiceImpl.addEmp(EmpServiceImpl.java:120)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at org.javaweb.service.impl.EmpServiceImpl$$SpringCGLIB$$0.addEmp(<generated>)
+	at org.javaweb.controller.EmpController.addEmp(EmpController.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'shopping' for key 'emp.username'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy90.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 70 common frames omitted
+2026-02-08 23:55:24 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【123】新增结束，开始记录操作日志
+2026-02-08 23:55:24 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工日志】开始插入员工操作日志，参数：EmpLog(id=null, operateTime=2026-02-08T23:55:24.083953400, info=Emp{id=null, username='shopping', name='123', gender=男, phone='12341234123', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]})
+2026-02-08 23:55:24 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工日志】员工操作日志插入成功，日志ID：null
+2026-02-08 23:55:24 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【123】操作日志记录成功
+2026-02-08 23:55:24 [http-nio-8080-exec-1] ERROR org.javaweb.exception.GlobalExceptionHandler - 业务异常：保存员工信息失败，请稍后重试
+2026-02-08 23:58:30 [http-nio-8080-exec-6] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-08 23:58:30 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工条件查询请求，查询参数：EmpQueryParam(name=, gender=null, begin=null, end=null, page=1, pageSize=10)
+2026-02-08 23:58:30 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】姓名参数预处理完成，处理后：null
+2026-02-08 23:58:30 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】分页参数处理完成，当前页码：1，每页条数：10
+2026-02-08 23:58:30 [http-nio-8080-exec-3] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工条件查询执行完成，查询到10条数据
+2026-02-08 23:58:30 [http-nio-8080-exec-4] INFO  org.javaweb.service.impl.DeptServiceImpl - 【部门管理】开始查询所有部门信息
+2026-02-08 23:58:39 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-08 23:58:39 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-08 23:58:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-08 23:58:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-08 23:58:41 [main] INFO  org.javaweb.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 17.0.18 with PID 16340 (F:\JavaWeb_Works\web-projects\tlias-web-management\target\classes started by tswos in F:\JavaWeb_Works\web-projects)
+2026-02-08 23:58:41 [main] INFO  org.javaweb.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-08 23:58:42 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-08 23:58:43 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-08 23:58:43 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-08 23:58:43 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-08 23:58:43 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-08 23:58:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1150 ms
+2026-02-08 23:58:44 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-08 23:58:44 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-08 23:58:44 [main] INFO  org.javaweb.TliasWebManagementApplication - Started TliasWebManagementApplication in 3.35 seconds (process running for 4.229)
+2026-02-08 23:58:46 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-08 23:58:46 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-08 23:58:46 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-08 23:58:46 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-08 23:58:46 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d3aefa0
+2026-02-08 23:58:46 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-08 23:58:46 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】接收到员工新增请求，员工信息：Emp{id=null, username='shopping', name='123', gender=男, phone='12341234123', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]}
+2026-02-08 23:58:46 [http-nio-8080-exec-1] ERROR org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工新增异常，员工信息：Emp{id=null, username='shopping', name='123', gender=男, phone='12341234123', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]}
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'shopping' for key 'emp.username'
+### The error may exist in org/javaweb/mapper/EmpMapper.xml
+### The error may involve org.javaweb.mapper.EmpMapper.addEmp-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO emp (username,         password,         name,         gender,         phone,         salary,         image,         entry_date,         dept_id,         create_time,         update_time          )         VALUES (?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         NOW(),         NOW()          )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'shopping' for key 'emp.username'
+; Duplicate entry 'shopping' for key 'emp.username'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:95)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy72.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy75.addEmp(Unknown Source)
+	at org.javaweb.service.impl.EmpServiceImpl.addEmp(EmpServiceImpl.java:120)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at org.javaweb.service.impl.EmpServiceImpl$$SpringCGLIB$$0.addEmp(<generated>)
+	at org.javaweb.controller.EmpController.addEmp(EmpController.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'shopping' for key 'emp.username'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy90.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 70 common frames omitted
+2026-02-08 23:58:46 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【123】新增结束，开始记录操作日志
+2026-02-08 23:58:46 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工日志】开始插入员工操作日志，参数：EmpLog(id=null, operateTime=2026-02-08T23:58:46.807811500, info=Emp{id=null, username='shopping', name='123', gender=男, phone='12341234123', job=未知职位, salary=null, entryDate=null, deptName='null', exprList=[]})
+2026-02-08 23:58:46 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.LogInsertServiceImpl - 【员工日志】员工操作日志插入成功，日志ID：null
+2026-02-08 23:58:46 [http-nio-8080-exec-1] INFO  org.javaweb.service.impl.EmpServiceImpl - 【员工管理】员工【123】操作日志记录成功
+2026-02-08 23:58:46 [http-nio-8080-exec-1] ERROR org.javaweb.exception.GlobalExceptionHandler - 业务异常：保存员工信息失败，请稍后重试

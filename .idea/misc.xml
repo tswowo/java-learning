@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Day3/Demo1/maven-project-01/pom.xml" />
+        <option value="$PROJECT_DIR$/Day3/Work/UserService/pom.xml" />
+        <option value="$PROJECT_DIR$/Day4/Demo1/springboot-web-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/Day4/springboot-web-01/pom.xml" />
+        <option value="$PROJECT_DIR$/Day4/springboot-web-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/Work/pom.xml" />
+        <option value="$PROJECT_DIR$/Day4/Work/pom.xml" />
+        <option value="$PROJECT_DIR$/Day7/Demo1/JDBC-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Day6/JDBC-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Day6/Mybatis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Day6/WORK2/pom.xml" />
+        <option value="$PROJECT_DIR$/Day6/WORK4/springboot-mybatis-homework/springboot-mybatis-homework/pom.xml" />
+        <option value="$PROJECT_DIR$/web-projects/tlias-web-management/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

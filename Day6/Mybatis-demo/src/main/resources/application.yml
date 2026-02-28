@@ -1,0 +1,18 @@
+spring:
+  # 数据库连接配置（根据你的实际环境调整）
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/firstDB?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: qwert88SQL...
+
+# MyBatis配置
+mybatis:
+  # 配置XML映射文件的扫描路径
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  # 配置实体类别名（可选，XML中可直接用User代替全类名）
+  type-aliases-package: org.javaweb.pojo
+  # 开启驼峰命名自动转换（可选，比如数据库字段user_name自动映射到userName）
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

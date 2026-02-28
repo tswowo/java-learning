@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.javaweb.mapper.EmpLogMapper">
+<insert id="insert" parameterType="org.javaweb.pojo.LogOperator">
+    INSERT INTO emp_log (id,
+                         operate_emp_id,
+                         operate_time,
+                         class_name,
+                         method_name,
+                         method_params,
+                         return_value,
+                         cost_time)
+    VALUES (#{id},
+            #{operateEmpId},
+            #{operateTime},
+            #{className},
+            #{methodName},
+            #{methodParams},
+            #{returnValue},
+            #{costTime})
+</insert>
+
+
+</mapper>

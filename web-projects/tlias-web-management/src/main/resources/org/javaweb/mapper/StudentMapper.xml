@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.javaweb.mapper.StudentMapper">
+    <!-- 添加学生信息 -->
+    <insert id="addStudent">
+        INSERT INTO student (name,no,gender,phone,degree,clazz_id,create_time,update_time
+        <if test="idCard!=null">,id_card</if>
+        <if test="isCollege!=null">,is_college</if>
+        <if test="address!=null">,address</if>
+        <if test="graduationDate!=null">,graduation_date</if>
+        )VALUES(
+        #{name},#{no},#{gender},#{phone},#{degree},#{clazzId},NOW(),NOW()
+        <if test="idCard!=null">,#{idCard}</if>
+        <if test="isCollege!=null">,#{isCollege}</if>
+        <if test="address!=null">,#{address}</if>
+        <if test="graduationDate!=null">,#{graduationDate}</if>
+        )
+    </insert>
+
+    <update id="updateStudent">
+        UPDATE student SET
+        name=#{name},
+        no=#{no},
+        gender=#{gender},
+        phone=#{phone},
+        degree=#{degree},
+        clazz_id=#{clazzId},
+        violation_count=#{violationCount},
+        violation_score= #{violationScore},
+        update_time= NOW()
+        <if test="idCard!=null">,id_card=#{idCard}</if>
+        <if test="isCollege!=null">,is_college=#{isCollege}</if>
+        <if test="address!=null">,address=#{address}</if>
+        <if test="graduationDate!=null">,graduation_date=#{graduationDate}</if>
+        WHERE id=#{id}
+    </update>
+
+    <update id="updateStudentViolation">
+        UPDATE student
+        SET violation_count=#{violationCount},
+            violation_score=#{violationScore},
+            update_time=NOW()
+        WHERE id = #{id}
+    </update>
+
+    <!-- 批量删除学生信息 -->
+    <delete id="deleteStudentByIds">
+        DELETE FROM student WHERE id IN
+        <foreach collection="array" item="id" separator="," close=")" open="(">
+            #{id}
+        </foreach>
+    </delete>
+
+    <!-- 根据条件查询学生信息 -->
+    <select id="selectByCondition" resultType="org.javaweb.pojo.Student">
+        SELECT
+        id ,name,no,gender ,phone ,id_card ,is_college,
+        address ,degree ,graduation_date,clazz_id ,violation_count ,violation_score ,create_time, update_time
+
+        FROM student
+        <where>
+            <if test="name != null">
+                AND name LIKE CONCAT('%',#{name},'%')
+            </if>
+            <if test="degree != null">
+                AND degree = #{degree}
+            </if>
+            <if test="clazzId != null">
+                AND clazz_id = #{clazzId}
+            </if>
+        </where>
+    </select>
+
+    <!-- 根据Id查询学生信息 -->
+    <select id="selectById" resultType="org.javaweb.pojo.Student">
+        SELECT *
+        FROM student
+        WHERE id = #{id}
+    </select>
+</mapper>

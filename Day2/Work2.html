@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作业2</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            padding: 10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 需求: Vue挂载完成后, 通过axios发送异步请求到服务端, 或者学生列表数据, 并通过Vue展示在页面上. -->
+    <div id="app">
+
+        <table>
+            <tr>
+                <th>编号</th>
+                <th>姓名</th>
+                <th>图像</th>
+                <th>年龄</th>
+                <th>性别</th>
+                <th>成绩</th>
+                <th>等级</th>
+            </tr>
+            <tr v-for="(student, index) in students" :key="student.id">
+                <td>{{ index + 1 }}</td>
+                <td>{{ student.name }}</td>
+                <td><img :src="student.image"></td>
+                <td>{{ student.age }}</td>
+                <td>
+                    <span v-if="student.gender === 1">男</span>
+                    <span v-else-if="student.gender === 2">女</span>
+                </td>
+                <td>{{ student.score }}</td>
+                <td>
+                    <span v-if="student.score >= 90" style="color: green;">优秀</span>
+                    <span v-else-if="student.score >= 60" style="color: yellow;">及格</span>
+                    <span v-else style="color: red;">不及格</span>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <script type="module">
+        import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+        import axios from 'https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/esm/axios.min.js'
+
+        createApp({
+            data() {
+                return {
+                    students: []
+                }
+            },
+            methods: {
+                async getStudents() {
+                    try {
+                        let res = await axios.get('https://mock.apifox.cn/m1/3128855-0-default/student');
+                        this.students = res.data.data;
+                        this.students.forEach(
+                            (student) => {
+                                student.image = 'https://picsum.photos/70/50?random=1';
+                            }
+                        )
+                        console.log('yyyyyyyyyyyyy',res.data.data);
+                    }
+                    catch (error) {
+                        console.log('nnnnnnnnnnnnn',error);
+                    }
+                }
+            },
+            mounted() {
+                this.getStudents()
+            }
+        }).mount('#app')
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/125fc3c0-549c-4cf6-821f-7e4d8bb22e98/console_6.sql" value="125fc3c0-549c-4cf6-821f-7e4d8bb22e98" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/125fc3c0-549c-4cf6-821f-7e4d8bb22e98/console_7.sql" value="125fc3c0-549c-4cf6-821f-7e4d8bb22e98" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/125fc3c0-549c-4cf6-821f-7e4d8bb22e98/console_8.sql" value="125fc3c0-549c-4cf6-821f-7e4d8bb22e98" />
+    <file url="file://$PROJECT_DIR$/Day6/Mybatis-demo/src/main/java/org/javaweb/mapper/UserMapper1.java" value="125fc3c0-549c-4cf6-821f-7e4d8bb22e98" />
+    <file url="file://$PROJECT_DIR$/Day6/Mybatis-demo/src/test/java/org/javaweb/MybatisDemoApplicationTests1.java" value="125fc3c0-549c-4cf6-821f-7e4d8bb22e98" />
+    <file url="file://$PROJECT_DIR$/Day6/Mybatis-demo/src/test/java/org/javaweb/MybatisDemoApplicationTests2.java" value="125fc3c0-549c-4cf6-821f-7e4d8bb22e98" />
+    <file url="file://$PROJECT_DIR$/Day6/WORK4/springboot-mybatis-homework/springboot-mybatis-homework/src/main/java/mybatis/mapper/StudentMapper.java" value="125fc3c0-549c-4cf6-821f-7e4d8bb22e98" />
+    <file url="file://$PROJECT_DIR$/Day6/WORK4/springboot-mybatis-homework/springboot-mybatis-homework/src/main/resources/mybatis/mapper/StudentMapper.xml" value="125fc3c0-549c-4cf6-821f-7e4d8bb22e98" />
+  </component>
+</project>
