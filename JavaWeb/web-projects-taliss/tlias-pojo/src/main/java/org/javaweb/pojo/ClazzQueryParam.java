@@ -13,6 +13,7 @@ public class ClazzQueryParam {
     String name;
     LocalDate begin;
     LocalDate end;
+    Integer subject;
     Integer page = 1;
     Integer pageSize = 10;
 }

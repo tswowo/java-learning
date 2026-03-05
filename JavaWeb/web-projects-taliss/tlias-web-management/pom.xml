@@ -25,6 +25,7 @@
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>3.0.5</version>
         </dependency>
 
         <dependency>
@@ -35,6 +36,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -67,24 +69,25 @@
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-jackson</artifactId> <!-- or jjwt-gson if Gson is preferred -->
+            <artifactId>jjwt-jackson</artifactId>
             <version>0.13.0</version>
             <scope>runtime</scope>
         </dependency>
-        <!-- Spring AOP 依赖 -->
+
+        <!-- AOP -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
+
+        <!-- 自定义模块 -->
         <dependency>
             <groupId>org.javaweb</groupId>
             <artifactId>tlias-pojo</artifactId>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.javaweb</groupId>
             <artifactId>talias-utils</artifactId>
-            <scope>compile</scope>
         </dependency>
 
     </dependencies>

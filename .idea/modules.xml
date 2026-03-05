@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaStudy.iml" filepath="$PROJECT_DIR$/.idea/JavaStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb/web-projects-taliss/talias-utils/talias-utils.iml" filepath="$PROJECT_DIR$/JavaWeb/web-projects-taliss/talias-utils/talias-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb/web-projects-taliss/tlias-pojo/tlias-pojo.iml" filepath="$PROJECT_DIR$/JavaWeb/web-projects-taliss/tlias-pojo/tlias-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb/web-projects-taliss/tlias-web-management/tlias-web-management.iml" filepath="$PROJECT_DIR$/JavaWeb/web-projects-taliss/tlias-web-management/tlias-web-management.iml" />
     </modules>
   </component>
 </project>

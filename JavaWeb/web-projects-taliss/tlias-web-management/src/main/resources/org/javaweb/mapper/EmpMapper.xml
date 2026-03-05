@@ -73,7 +73,7 @@
         NOW(),
         NOW()
         <if test="job!=null">
-            #{job},
+            ,#{job}
         </if>)
     </insert>
 

@@ -54,21 +54,37 @@
     </delete>
 
     <!-- 根据条件查询学生信息 -->
+    <!-- 根据条件查询学生信息 -->
     <select id="selectByCondition" resultType="org.javaweb.pojo.Student">
         SELECT
-        id ,name,no,gender ,phone ,id_card ,is_college,
-        address ,degree ,graduation_date,clazz_id ,violation_count ,violation_score ,create_time, update_time
+        student.id,
+        student.name,
+        student.no,
+        student.gender,
+        student.phone,
+        student.id_card,
+        student.is_college,
+        student.address,
+        student.degree,
+        student.graduation_date,
+        student.clazz_id,
+        student.violation_count,
+        student.violation_score,
+        student.create_time,
+        student.update_time,
+        clazz.name AS clazzName
 
         FROM student
+        LEFT JOIN clazz ON student.clazz_id = clazz.id
         <where>
             <if test="name != null">
-                AND name LIKE CONCAT('%',#{name},'%')
+                AND student.name LIKE CONCAT('%',#{name},'%')
             </if>
             <if test="degree != null">
-                AND degree = #{degree}
+                AND student.degree = #{degree}
             </if>
             <if test="clazzId != null">
-                AND clazz_id = #{clazzId}
+                AND student.clazz_id = #{clazzId}
             </if>
         </where>
     </select>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/JavaWeb/web-projects-taliss/tlias-web-management/src/main/resources/org/javaweb/mapper/ClazzMapper.xml" value="b6639007-b9bd-4b54-96d3-beffc14ddec8" />
+    <file url="file://$PROJECT_DIR$/JavaWeb/web-projects-taliss/tlias-web-management/src/main/resources/org/javaweb/mapper/EmpMapper.xml" value="b6639007-b9bd-4b54-96d3-beffc14ddec8" />
+  </component>
+</project>

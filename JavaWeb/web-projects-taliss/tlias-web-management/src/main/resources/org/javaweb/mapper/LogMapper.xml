@@ -15,7 +15,7 @@
                l.return_value   AS returnValue,
                l.cost_time      AS costTime
         FROM operate_log AS l
-                 INNER JOIN emp AS e ON l.operate_emp_id = e.id
+                 LEFT JOIN emp AS e ON l.operate_emp_id = e.id
     </select>
 
 </mapper>
